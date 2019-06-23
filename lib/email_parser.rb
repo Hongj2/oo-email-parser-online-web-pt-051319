@@ -10,6 +10,7 @@ class EmailParser
   
   def initialize (email)
    @emails = email
+   # do not need to use @@emails = [], @@emails << @email = email , because email arguement contains STRING(S) so there wasnt a need to create an array == NO NEED TO COMPLICATE THINGS YO.
   end
     
   def parse
